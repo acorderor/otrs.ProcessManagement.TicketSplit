@@ -1,7 +1,7 @@
 # --
 # Kernel/System::ProcessManagement::TransitionAction::MergeTicket.pm - to merge tickets from a Process
 # Copyright (C) 2013 Nomadic Solutions , http://gridshield.net/
-# --
+# -- alvaro@gridshield.net
 # $Id: MergeTicket.pm,v 1.00 2013/04/001 11:27:42 ub Exp $
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
