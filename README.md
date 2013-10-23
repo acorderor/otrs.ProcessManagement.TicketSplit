@@ -17,7 +17,8 @@ Allows the creation of one subprocess starting on a certain task of the process,
 It will copy the last article created in the main process ticket, usually the one created into the activity that gives birth to it and will always link the original ticket and the new one with the parent relation. 
 The module is called SplitTicket.pm and can be placed into Custom otrs directory for better compatibility. 
 It requires the following fields.
-Queue: The queue where the new ticket will be created. 
+
+Queue: The queue where the new ticket will be created.
 activity: The ActivityID for the first activity to be executed by the new process (subprocess)
 fields: A comma separated list of Dynamic Fields that should be copied from the parent ticket into the new ticket. It replaces the information that should be entered into the first Activity Dialog.
 process: The ProcessID to define the Process Type of the new ticket. 
@@ -26,7 +27,8 @@ title: The title for the subprocess
 SplitTicketMulti.
 
 Allows the creation of multiple subprocess from within one single process, it uses SplitTicket.pm and assigns the new subprocesses into different queues so the activities can be done by different agents. It allows the parallelization of the process and to assign different fields from the original ticket into the new ones.  It will link all the new subprocesses (tickets) as childs of the current process, and will also include the last article of the main process into the new ones. 
-It requires the following fields. 
+It requires the following fields.
+
 CheckField[n]:  Will be a DynamiField Check that will be used to choose whether a subprocess to certain queue or area should be created.
 Queue[n]: Will indicate the queue where the subprocess N should be placed.
 fields[n]: Will be the Dynamic Fields to be copied into the new process N
