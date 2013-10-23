@@ -1,7 +1,7 @@
 # --
 # Kernel/System/ProcessManagement/TransitionAction/SplitTicket.pm - to split tickets from within a process
 # Copyright (C) 2001-2013 Nomadic Solutions, http://gridshield.net/
-# --
+# -- alvaro@gridshield.net
 # $Id: SplitTicket.pm,v 1.00 2013/04/01 11:27:42 ub Exp $
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
